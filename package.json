@@ -1,0 +1,17 @@
+{
+  "name": "js-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pdf-server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^20.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon pdf-server.js > app.log"
+  },
+  "author": "",
+  "license": "ISC"
+}
